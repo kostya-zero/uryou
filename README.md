@@ -1,8 +1,8 @@
 # Uryou
 
-<img src="icon.png" width=128 align="right">
+<img src="icon.png" width=128 align="right" >
 
-Uryou is a CLI frontend for wttr.in website designed for easier interaction with `curl`.
+Uryou is a CLI frontend for wttr.in designed for easier interaction with website by sending requests via `curl`.
 It's written in Python and has functionallity that they need.
 Uryou calls `curl` with url that have specific options like location, display option and more.
 Also, `curl` is required to make application working.
