@@ -1,0 +1,25 @@
+{
+  "Project_Name": "uryou",
+  "Project_MainExecutable": "main.py",
+  "Project_Version": "0.1.0",
+  "Project_Description": "A frontend for wttr.in website.",
+  "Project_Type": "app",
+  "Git_CheckoutBranch": "",
+  "Nuitka_BackendCompiler": "clang",
+  "Nuitka_LTO": 0,
+  "Nuitka_Jobs": 4,
+  "Pipe_RunBeforeBuild": [],
+  "Pipe_RequiredTools": [],
+  "Options_OneFile": false,
+  "Options_Standalone": false,
+  "Options_FollowImports": true,
+  "Options_NoPyiFiles": true,
+  "Options_ShowOnlyError": false,
+  "Depends_Packages": [],
+  "Depends_UseRequirements": false,
+  "Depends_IncludeDirs": [],
+  "Depends_IgnorePackages": [
+    "email",
+    "http"
+  ]
+}
