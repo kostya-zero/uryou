@@ -8,3 +8,19 @@ Uryou calls `curl` with url that have specific options like location, display op
 Also, `curl` is required to make application working.
 You can use uryou by calling `main.py` file with `python` executable, or build a binary with [Pipe](https://gitlab.com/kostya-zero/pipe) (for Linux only).
 You can get help by passing `--help` argument.
+
+## Usage
+
+```shell
+# Shows a forecast information based on your location.
+python main.py
+
+# Shows help message
+python main.py --help
+
+# Shows a forecast information based on location you gave.
+python main.py --location "London"
+
+# Show detailed information about today's forecast
+python main.py --detailed --today
+```
