@@ -1,26 +1,26 @@
 # Uryou
 
-<img src="icon.png" width=128 align="right" >
+<img src="icon.png" width=128 align="right">
 
 Uryou is a CLI frontend for wttr.in designed for easier interaction with website by sending requests via `curl`.
-It's written in Python and has functionallity that they need.
-Uryou calls `curl` with url that have specific options like location, display option and more.
-Also, `curl` is required to make application working.
-You can use uryou by calling `main.py` file with `python` executable, or build a binary with [Pipe](https://gitlab.com/kostya-zero/pipe) (for Linux only).
+It is written in Python and has the functionality they need.
+Uryou calls `curl` with URL that has certain parameters such as location, display parameter, and more.
+In order `curl` is required for application to work.
+You can use Uryou by calling `main.py` file with `python` executable, or build a binary with [Pipe](https://gitlab.com/kostya-zero/pipe) (for Linux only).
 You can get help by passing `--help` argument.
 
 ## Usage
 
 ```shell
-# Shows a forecast information based on your location.
+# Shows forecast information based on your location.
 python main.py
 
-# Shows help message
+# Shows help message.
 python main.py --help
 
-# Shows a forecast information based on location you gave.
+# Shows forecast information based on the location you specified.
 python main.py --location "London"
 
-# Show detailed information about today's forecast
+# Shows detailed information about today's forecast.
 python main.py --detailed --today
 ```
