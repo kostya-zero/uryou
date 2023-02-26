@@ -1,4 +1,6 @@
 import sys
+sys.dont_write_bytecode = True
+
 from include.argparser import parse_args
 from os import system
 
